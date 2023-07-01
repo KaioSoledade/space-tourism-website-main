@@ -10,8 +10,22 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
     width: 100%;
     height: 100vh;
+
+}
+
+footer{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
 }
 
 @media (max-width: 800px)
