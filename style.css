@@ -17,9 +17,12 @@ body{
 }
 
 footer{
-    width: 1300px;
+    width: 100%;
+
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
     color: white;
 }
 a{
@@ -27,5 +30,15 @@ a{
     color: white;
     display: inline-block;
 }
+.section2 p{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width: 800px)
