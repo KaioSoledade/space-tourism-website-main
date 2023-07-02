@@ -17,6 +17,7 @@ body{
 }
 
 footer{
+    margin: 20px 0 0 20px;
     width: 100%;
 
     display: flex;
@@ -25,12 +26,35 @@ footer{
 
     color: white;
 }
-a{
+footer .navegacao{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer strong{
+    margin-right: 0.5em;
+}
+footer a{
     text-decoration: none;
     color: white;
     display: inline-block;
+    font-size: 20px;
 }
-.section2 p{
+
+main .section1{
+    width: 50%;
+    
+
+}
+main .section2{
+    width: 50%;
+    
+    
+}
+main .section2 p{
     background-color: white;
     width: 150px;
     height: 150px;
@@ -41,4 +65,6 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+
 @media (max-width: 800px)
