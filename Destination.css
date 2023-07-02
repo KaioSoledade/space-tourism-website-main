@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(background-home-desktop.jpg);
+    background-image: url(background-destination-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -43,32 +43,3 @@ footer a{
     display: inline-block;
     font-size: 20px;
 }
-main{
-    width: 100%;
-
-    display: flex;
-    justify-content: space-around;
-}
-main .section1{
-    width: 50%;
-
-}
-main .section2{
-    width: 50%;
-    
-    
-}
-main .section2 p{
-    background-color: white;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-@media (max-width: 800px)
