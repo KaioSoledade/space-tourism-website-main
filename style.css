@@ -17,6 +17,12 @@ body{
 }
 
 footer{
+
+    background-color: #f5f5f5;
+    background-image: url('background-home-desktop.jpg');
+    background-repeat: repeat;
+    color: #333333;
+
     margin: 20px 0 0 20px;
     width: 100%;
 
@@ -50,25 +56,34 @@ main{
     justify-content: space-around;
 }
 main .section1{
-    width: 50%;
-
+    width: 40%;
+}
+main .section1 h1{
+    font-size: 30px;
+    color: #b9b9b9;
 }
 main .section2{
     width: 50%;
+    height: 1000px;
+    display: flex;
+    justify-content: end;
+    
     
     
 }
 main .section2 p{
     background-color: white;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 @media (max-width: 800px)
