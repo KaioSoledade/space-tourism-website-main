@@ -61,3 +61,20 @@ footer a{
     display: inline-block;
     font-size: 20px;
 }
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+footer .borda-inferior{
+    z-index: 1;
+    width: 90px;
+    height: 5px;
+    background-color: aliceblue;
+}
+
