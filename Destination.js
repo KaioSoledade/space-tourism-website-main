@@ -1,3 +1,5 @@
+window.sr = ScrollReveal({reset: true});
+
 sr.reveal('.revell4', {
     origin: 'left', // Define a direção da origem da animação
     distance: '100px', // Define a distância percorrida pela animação
