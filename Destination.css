@@ -103,17 +103,18 @@ main .seção2{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    align-items: center;
+
+    color: white;
 }
 
 .seção2 .nave-planet{
     display: flex;
     justify-content: space-between;
 
-    color: white;
-    font-size: 20px;
+    color: rgb(235, 235, 235);
+    font-size: 17px;
     text-transform: uppercase;
-    width: 500px;
+    width: 400px;
 }
 
 .Mars{
