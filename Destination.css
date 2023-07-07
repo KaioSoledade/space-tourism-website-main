@@ -86,13 +86,13 @@ main{
 
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 }
 main .seção1{
-    width: 40%;
+    width: 80%;
     height: 900px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: space-between;
     
     padding: 300px 100px 100px 0;
     color: white;
