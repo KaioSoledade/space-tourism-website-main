@@ -90,21 +90,26 @@ main{
 }
 main .seção1{
     width: 80%;
-    height: 900px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     
-    padding: 300px 100px 100px 0;
+    padding: 200px 100px 100px 0;
     color: white;
 }
 main .seção2{
-    width: 40%;
-    height: 900px;
+    width: 80%;
+    height: 500px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+
 
     color: white;
+}
+.Moon{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
 }
 
 .seção2 .nave-planet{
