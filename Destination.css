@@ -107,7 +107,7 @@ main .seção2{
 }
 .Moon{
     width: 100%;
-    
+
     display: flex;
     justify-content: space-between;
 }
@@ -120,6 +120,11 @@ main .seção2{
     font-size: 17px;
     text-transform: uppercase;
     width: 400px;
+}
+
+.text{
+    width: 400px;
+    height: ;
 }
 
 .Mars{
