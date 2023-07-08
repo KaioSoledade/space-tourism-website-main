@@ -88,6 +88,8 @@ main{
     justify-content: space-around;
     flex-direction: column;
 }
+
+
 main .seção1{
     width: 80%;
     height: 100px;
@@ -96,23 +98,9 @@ main .seção1{
     
     padding: 200px 100px 100px 0;
     color: white;
+    background-color: aqua;
 }
-main .seção2{
-    width: 80%;
-    height: 500px;
-    display: flex;
-
-
-    color: white;
-}
-.Moon{
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.seção2 .nave-planet{
+.seção1 .nave-planet{
     display: flex;
     justify-content: space-between;
 
@@ -122,11 +110,41 @@ main .seção2{
     width: 400px;
 }
 
+
+main .seção2{
+    width: 80%;
+    height: 500px;
+    display: flex;
+
+
+    color: white;
+}
+.seção2 img{
+    overflow: auto;
+    width: 500px;
+    height: 500px;
+}
 .text{
     width: 400px;
-    height: ;
-}
+    height: 500px;
 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 100px;
+    margin: 0.25em 10px;
+}
+.text p{
+
+}
+.Moon{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
 .Mars{
     display: none;
 }
