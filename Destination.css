@@ -124,6 +124,23 @@ main .seção2{
     width: 500px;
     height: 500px;
 }
+.seção2 .linha-dividi{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.seção2 .distancia-tempo{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+.seção2 .distancia{
+    font-size: 20px;
+}
+.seção2 .tempo{
+    font-size: 20PX;
+}
 .text{
     width: 400px;
     height: 500px;
