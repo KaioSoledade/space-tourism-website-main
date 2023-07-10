@@ -91,7 +91,7 @@ main{
 
 
 main .seção1{
-    width: 80%;
+    width: 90%;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -112,7 +112,7 @@ main .seção1{
 
 
 main .seção2{
-    width: 80%;
+    width: 90%;
     height: 500px;
     display: flex;
 
@@ -129,20 +129,9 @@ main .seção2{
     height: 2px;
     background-color: white;
 }
-.seção2 .distancia-tempo{
-    width: 100%;
 
-    display: flex;
-    justify-content: space-around;
-}
-.seção2 .distancia{
-    font-size: 20px;
-}
-.seção2 .tempo{
-    font-size: 20PX;
-}
 .text{
-    width: 400px;
+    width: 500px;
     height: 500px;
 
     display: flex;
@@ -154,8 +143,32 @@ main .seção2{
     margin: 0.25em 10px;
 }
 .text p{
-
+    font-size: 19px;
+    line-height: 1.5em;
 }
+.seção2 .distancia-tempo{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 0;
+}
+.seção2 .distancia h3{
+    font-size: 17px;
+}
+.seção2 .distancia p{
+    font-size: 30px;
+}
+.seção2 .tempo h3{
+    font-size: 17px;
+}
+.seção2 .tempo p{
+    font-size: 30px;
+}
+
+
+
+
 .Moon{
     width: 100%;
 
