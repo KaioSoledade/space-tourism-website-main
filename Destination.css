@@ -42,6 +42,8 @@ footer .navegacao{
     background-color: rgba(133, 133, 133, 0.8);
 
     padding: 0 200px 0 0;
+    text-transform:uppercase;
+
 
 }
 footer .linha{
@@ -117,6 +119,12 @@ main .seção1{
 }
 .seção1 h1{
     font-size: 30px;
+    width: 600px;
+
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main .seção2{
