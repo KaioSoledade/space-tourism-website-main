@@ -79,7 +79,14 @@ footer .borda-inferior{
     height: 5px;
     background-color: aliceblue;
 }
-
+footer .a-2, .a-3, .a-4{
+    width: 100px;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 main{
     width: 100%;
