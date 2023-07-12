@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-family: 'Bacasime Antique', serif;}
+    font-family: 'Bacasime Antique', ;}
 
 body{
     background-image: url(background-destination-desktop.jpg);
@@ -125,14 +125,18 @@ main .seção1{
     font-size: 40px;
     color: #b4b4b4;
 }
-.seção1 h1{
-    font-size: 30px;
+.seção1 .h1{
+    font-size: 25px;
+    margin: 0 0 0 100px;
     width: 600px;
+    height: 50px;
 
     background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    text-transform: uppercase;
 }
 
 main .seção2{
@@ -189,7 +193,7 @@ main .seção2{
 }
 .seção2 .distancia p{
     font-size: 30px;
-    color: #b4b4b4;
+    color: white;
 
 }
 .seção2 .tempo h3{
@@ -199,7 +203,7 @@ main .seção2{
 }
 .seção2 .tempo p{
     font-size: 30px;
-    color: #b4b4b4;
+    color: white;
 
 }
 
