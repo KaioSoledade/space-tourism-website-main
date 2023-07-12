@@ -6,3 +6,13 @@ sr.reveal('.revell4', {
     duration: 1000, // Define a duração da animação em milissegundos
     easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
   });
+
+
+  
+
+var CardPlanet1 = document.getElementById('Mars');
+CardPlanet1.addEventListener("click", submit);
+function submit() {
+    CardPlanet1.classList.add('margin-direita');
+    CardPlanet1.classList.add('margin-esquerda');
+}

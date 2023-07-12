@@ -82,7 +82,7 @@ footer .borda-inferior{
 footer .a-1, .a-3, .a-4{
     width: 100px;
     height: 100px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,6 +166,7 @@ main .seção2{
 .text h1{
     font-size: 120px;
     margin: 0.25em 10px;
+    text-transform: uppercase;
 }
 .text p{
     color: #b4b4b4;
@@ -203,19 +204,43 @@ main .seção2{
 
 
 
-.Moon{
+.Moon-on{
     width: 100%;
 
     display: flex;
     justify-content: space-between;
 }
-.Mars{
+.Moon-off{
     display: none;
 }
-.Europa{
+
+.Mars-on{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.Mars-off{
     display: none;
 }
-.Titan{
+
+.Europa-on{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.Europa-off{
+    display: none;
+}
+
+.Titan-on{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.Titan-off{
     display: none;
 }
 /*teste
