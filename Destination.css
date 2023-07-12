@@ -146,8 +146,9 @@ main .seção2{
     height: 500px;
     display: flex;
 
-
     color: white;
+
+
 }
 .seção2 img{
     margin: 0 0 0 100px;
@@ -161,6 +162,12 @@ main .seção2{
     background-color: rgb(175, 174, 174);
 }
 
+@keyframes transicao{
+    0%{margin-left: 100px;}
+    100%{margin-left: 00px;}
+    
+}
+
 .text{
     width: 500px;
     height: 500px;
@@ -168,6 +175,9 @@ main .seção2{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+    animation: transicao 1s;
+    transition: 1s;
 }
 .text h1{
     font-size: 120px;
