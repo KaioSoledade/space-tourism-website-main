@@ -92,7 +92,7 @@ footer .a-1, .a-3, .a-4{
 main{
     width: 100%;
 
-    padding: 0 200px;
+    padding: 0 10%;
 
     display: flex;
     justify-content: space-around;
@@ -168,10 +168,12 @@ main .seção2{
     margin: 0.25em 10px;
     text-transform: uppercase;
 }
-.text p{
+.text .descript{
     color: #b4b4b4;
     font-size: 19px;
     line-height: 1.5em;
+    
+    height: 110px;
 }
 .seção2 .distancia-tempo{
     width: 100%;
