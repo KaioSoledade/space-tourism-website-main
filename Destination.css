@@ -102,11 +102,11 @@ main{
 
 main .seção1{
     width: 90%;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     
-    padding: 250px 0 50px 0;
+    margin: 50px 0 50px 0;
     color: white;
 }
 .seção1 .nave-planet{
@@ -117,6 +117,9 @@ main .seção1{
     font-size: 20px;
     text-transform: uppercase;
     width: 500px;
+    height: 50px;
+
+    margin: 200px 0 0 0 ;
 }
 .seção1 .nave-planet p{
     cursor: pointer;
@@ -127,11 +130,10 @@ main .seção1{
 }
 .seção1 .h1{
     font-size: 25px;
-    margin: 0 0 0 100px;
+    margin: 50px 0 0 0;
     width: 600px;
     height: 50px;
 
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
