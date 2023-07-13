@@ -219,7 +219,14 @@ main .seção2{
 
 }
 
-
+.margin-direita{
+    margin:0 0 0 150px ;
+    transition: 0.5s;
+}
+.margin-esquerda{
+    margin: 0 150px 0 0;
+    transition: 0.5s;
+}
 
 
 .Moon-on{
@@ -227,9 +234,14 @@ main .seção2{
 
     display: flex;
     justify-content: space-between;
+
+    margin-left: 0;
+    transition: 0.5s ;
 }
 .Moon-off{
     display: none;
+    margin-left: 100px;
+    transition: 0.5s;
 }
 
 .Mars-on{
