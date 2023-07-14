@@ -234,7 +234,12 @@ main .secao2{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(88, 88, 88);
     transition: 0.5s;
     cursor: pointer;
 }
+
+.secao2 .nave-circulos .circulo1{
+    background-color: rgb(88, 88, 88);
+}
+
