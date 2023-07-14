@@ -139,6 +139,7 @@ main .secao2{
 
 .secao2 img{
     width: 600px;
+    height: 600px;
 }
 
 .secao2 h2{
@@ -146,15 +147,44 @@ main .secao2{
     color: #b4b4b4;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 1em;
 }
 .secao2 h3{
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    margin-bottom: 1em;
+
 }
 .secao2 p{
     font-size: 20px;
     color: #b4b4b4;
     line-height: 1.5em;
+    padding-right: 550px ;
 }
+.secao2 .nave-circulos{
+    margin-top: 200px;
+    width: 150px;
+    height: 50px;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secao2 .nave-circulos .circulo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.secao2 .nave-circulos .circulo:hover{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(190, 190, 190);
+    transition: 0.5s;
+    cursor: pointer;
+}
