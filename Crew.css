@@ -141,3 +141,20 @@ main .secao2{
     width: 600px;
 }
 
+.secao2 h2{
+    font-size: 40px;
+    color: #b4b4b4;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.secao2 h3{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.secao2 p{
+    font-size: 20px;
+    color: #b4b4b4;
+    line-height: 1.5em;
+}
+
