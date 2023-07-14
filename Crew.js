@@ -21,7 +21,7 @@ var Person3 = document.getElementById('Victor');
 var Person4 = document.getElementById('Mark');
 
 
-var Button1 = document.querySelectorAll('.DoB')
+var Button1 = document.getElementById('DoB')
 Button1.addEventListener("click", submit1);
 function submit1() {
     Person1.classList.add('Douglas-on');
@@ -31,7 +31,7 @@ function submit1() {
     Person4.classList.add('Mark-off');
 }
 
-var Button2 = document.querySelectorAll('.AnB')
+var Button2 = document.getElementById('AnB')
 Button2.addEventListener("click", submit2);
 function submit2() {
     Person2.classList.add('Anousheh-on');
@@ -41,7 +41,7 @@ function submit2() {
     Person4.classList.add('Mark-off');
 }
 
-var Button3 = document.querySelectorAll('.ViB')
+var Button3 = document.getElementById('ViB')
 Button3.addEventListener("click", submit3);
 function submit3() {
     Person3.classList.add('Victor-on');
@@ -51,7 +51,7 @@ function submit3() {
     Person4.classList.add('Mark-off');
 }
 
-var Button4 = document.querySelectorAll('.MaB')
+var Button4 = document.getElementById('MaB')
 Button4.addEventListener("click", submit4);
 function submit4() {
     Person4.classList.add('Mark-on');
