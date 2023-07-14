@@ -207,13 +207,15 @@ main .secao2{
 
 }
 .secao2 p{
+    width: 500px;
+    height: 300px;
     font-size: 20px;
     color: #b4b4b4;
     line-height: 1.5em;
-    padding-right: 700px ;
+
+    margin: 0 0 100px 0;
 }
 .secao2 .nave-circulos{
-    margin-top: 200px;
     width: 150px;
     height: 50px;
 
