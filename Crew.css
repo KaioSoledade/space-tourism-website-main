@@ -18,6 +18,8 @@ body{
 
 }
 
+
+
 footer{
     color: #333333;
 
@@ -88,25 +90,27 @@ footer .a-1, .a-2, .a-4{
     justify-content: center;
 }
 
+
+
 main{
     width: 100%;
-    height: 950px;
+    height: 920px;
     padding: 0 10%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
 }
 
 
+
 main .secao1{
-    margin: 245px 0 0 0 ;
-    width: 90%;
+    padding: 100px 0 0 0 ;
+    width: 100%;
     height: 200px;
     display: flex;
     justify-content: space-between;
     
-    margin: 50px 0 50px 0;
     color: white;
 }
 .secao1 strong{
@@ -117,7 +121,6 @@ main .secao1{
 }
 .secao1 .h1{
     font-size: 25px;
-    margin: 40px 0 0 0;
     width: 600px;
     height: 50px;
 
@@ -127,22 +130,69 @@ main .secao1{
     text-transform: uppercase;
 }
 
+
+
 main .secao2{
+    width: 100%;
+    height: 600px;
+    
+    color: white;
+}
+
+
+
+.secao2 .Anousheh-on{
     width: 100%;
     height: 600px;
 
     display: flex;
     justify-content: space-between;
-    
-    color: white;
 }
+.secao2 .Anousheh-off{
+    display: none;
+}
+.secao2 .Victor-on{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.secao2 .Victor-off{
+    display: none;
+}
+.secao2 .Douglas-on{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.secao2 .Douglas-off{
+    display: none;
+}
+.secao2 .Mark-on{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.secao2 .Mark-off{
+    display: none;
+}
+
+
 
 .secao2 img{
     width: 600px;
     height: 600px;
 }
-
-.secao2 h2{
+.secao2 .text{
+    display: flex;
+    flex-direction: column;
+}
+.secao2 .text h2{
     font-size: 40px;
     color: #b4b4b4;
     letter-spacing: 0.1em;
@@ -160,7 +210,7 @@ main .secao2{
     font-size: 20px;
     color: #b4b4b4;
     line-height: 1.5em;
-    padding-right: 550px ;
+    padding-right: 700px ;
 }
 .secao2 .nave-circulos{
     margin-top: 200px;
