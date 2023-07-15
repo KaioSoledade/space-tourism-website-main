@@ -98,6 +98,8 @@ main{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
+    color: white;
 }
 
 
