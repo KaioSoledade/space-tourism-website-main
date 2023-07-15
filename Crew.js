@@ -60,3 +60,30 @@ function submit4() {
     Person3.classList.add('Victor-off');
     Person1.classList.add('Douglas-off');
 }
+
+
+
+sr.reveal('.revell11', {
+  origin: 'left', // Define a direção da origem da animação
+  distance: '100px', // Define a distância percorrida pela animação
+  duration: 1000, // Define a duração da animação em milissegundos
+  easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
+});
+sr.reveal('.revell12', {
+  origin: 'left', // Define a direção da origem da animação
+  distance: '200px', // Define a distância percorrida pela animação
+  duration: 2000, // Define a duração da animação em milissegundos
+  easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
+});
+sr.reveal('.revell13', {
+  origin: 'left', // Define a direção da origem da animação
+  distance: '300px', // Define a distância percorrida pela animação
+  duration: 3000, // Define a duração da animação em milissegundos
+  easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
+});
+sr.reveal('.revell14', {
+  origin: 'left', // Define a direção da origem da animação
+  distance: '400px', // Define a distância percorrida pela animação
+  duration: 4000, // Define a duração da animação em milissegundos
+  easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
+});

@@ -88,3 +88,42 @@ footer .a-1, .a-2, .a-3{
     justify-content: center;
 }
 
+
+
+main{
+    width: 100%;
+    height: 920px;
+    padding: 0 0 0 10%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+main .secao1{
+    padding: 100px 0 0 0 ;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+    color: white;
+}
+.secao1 strong{
+    font-size: 40px;
+    color: #b4b4b4;
+    margin: 0 0.25em 0 0;
+
+}
+.secao1 .h1{
+    font-size: 25px;
+    width: 600px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    text-transform: uppercase;
+}
