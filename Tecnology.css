@@ -149,7 +149,7 @@ main .secao2 .text2{
 .secao2 .text{
     width: 1050px;
     height: 700px;
-    padding: 170px 0 150px 280px;
+    padding: 170px 0 150px 150px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -174,8 +174,6 @@ main .secao2 .text2{
     padding: 0 200px 0 0
     ;
 }
-
-
 
 
 main .secao2 .Lauch-on{
@@ -226,10 +224,6 @@ main .secao3{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
-    position: absolute;
-    top: 500px;
-    left: 205px;
 }
 main .secao3 .circulo{
     width: 100px;

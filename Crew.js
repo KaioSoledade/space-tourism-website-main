@@ -87,3 +87,21 @@ sr.reveal('.revell14', {
   duration: 4000, // Define a duração da animação em milissegundos
   easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
 });
+
+
+const buttons = document.getElementsByClassName('circulo');
+
+// Adicionar a classe 'active' ao primeiro botão
+buttons[0].classList.add('active');
+
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', function() {
+    // Remover a classe 'active' de todos os botões
+    for (let j = 0; j < buttons.length; j++) {
+      buttons[j].classList.remove('active');
+    }
+
+    // Adicionar a classe 'active' apenas ao botão atual
+    this.classList.add('active');
+  });
+}

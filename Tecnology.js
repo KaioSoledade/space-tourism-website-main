@@ -1,35 +1,37 @@
 window.sr = ScrollReveal({reset: true});
 
-sr.reveal('.revell4', {
-    origin: 'left', // Define a direção da origem da animação
-    distance: '100px', // Define a distância percorrida pela animação
-    duration: 1000, // Define a duração da animação em milissegundos
-    easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
-  });
+const sr = ScrollReveal();
 
+sr.reveal('.revell1', {
+  origin: 'left',
+  distance: '100px',
+  duration: 1000,
+  easing: 'ease-in-out',
+});
 
-  sr.reveal('.revell1', {
-    origin: 'left', // Define a direção da origem da animação
-    distance: '100px', // Define a distância percorrida pela animação
-    duration: 1000, // Define a duração da animação em milissegundos
-    easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
-  });
-  sr.reveal('.revell2', {
-    origin: 'left', // Define a direção da origem da animação
-    distance: '100px', // Define a distância percorrida pela animação
-    duration: 1500, // Define a duração da animação em milissegundos
-    easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
-  });
-  sr.reveal('.revell3', {
-    origin: 'left', // Define a direção da origem da animação
-    distance: '100px', // Define a distância percorrida pela animação
-    duration: 2000, // Define a duração da animação em milissegundos
-    easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
-  });
+sr.reveal('.revell2', {
+  origin: 'left',
+  distance: '100px',
+  duration: 1000,
+  easing: 'ease-in-out',
+  delay: 1000, // Adicione um atraso de 1000 milissegundos (1 segundo)
+});
+
+sr.reveal('.revell3', {
+  origin: 'right',
+  distance: '100px',
+  duration: 1000,
+  easing: 'ease-in-out',
+  delay: 2000, // Adicione um atraso de 2000 milissegundos (2 segundos)
+});
+
 
 
 
 const buttons = document.getElementsByClassName('circulo');
+
+// Adicionar a classe 'active' ao primeiro botão
+buttons[0].classList.add('active');
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function() {
@@ -42,6 +44,7 @@ for (let i = 0; i < buttons.length; i++) {
     this.classList.add('active');
   });
 }
+
 
 
 var Event1 = document.getElementById('Lauch');

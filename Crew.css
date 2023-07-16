@@ -233,6 +233,7 @@ main .secao2{
     background-color: white;
     transition: 0.5s;
     cursor: pointer;
+    border: solid 1px white;
 
 }
 .nave-circulos .circulo:hover{
@@ -243,8 +244,8 @@ main .secao2{
     transition: 0.5s;
     cursor: pointer;
 }
-
-.secao2 .nave-circulos .circulo1{
-    background-color: rgb(88, 88, 88);
+.circulo.active {
+    background-color: rgb(73, 73, 73);
 }
+
 
