@@ -9,6 +9,7 @@ Durante o desenvolvimento deste projeto, tive a oportunidade de pesquisar mais s
 ## Ferramentas utilizadas
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/en/about)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
